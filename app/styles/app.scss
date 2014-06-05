@@ -1,0 +1,16 @@
+@import "inuit/style";
+
+$break-large: 1400px;
+$break-medium: 1100px;
+$break-small: 900px;
+$break-phone: 750px;
+
+@import 'layout';
+
+.title {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  &:first-of-type {
+    padding-top: 200px;
+  }
+}

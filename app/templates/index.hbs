@@ -1,0 +1,10 @@
+<h5 class='title'>Matt Goo</h5>
+<h5 class='title'>@moog16</h5>
+<h5 class='title'>WebDeveloper</h5>
+
+{{#each resume}}
+  {{resume-entry
+    entry=this}}
+{{/each}}
+
+{{#link-to 'technology-skills'}}Skills{{/link-to}}

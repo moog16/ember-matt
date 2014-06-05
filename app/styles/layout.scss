@@ -1,0 +1,17 @@
+.back-splash {
+  background-image: url('./images/pirateCove.jpg');
+  background-size: cover;
+  height: 800px;
+  @media screen and (max-width: $break-large) {
+    background-position-y: -600px;
+  }
+  @media screen and (max-width: $break-medium) {
+    background-position-y: -400px;
+  }
+  @media screen and (max-width: $break-small) {
+    background-position-y: -200px;
+  }
+  @media screen and (max-width: $break-phone) {
+    background-position-y: 0;
+  }
+}
