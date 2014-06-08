@@ -1,11 +1,11 @@
 /* http://tympanus.net/Development/InlineAnchorStyles/ */
 a {
-  color: #2c3e50;
+  color: $darkBlue;
   position: relative;
   text-decoration: none;
 
   &:hover {
-    color: #2980b9;
+    color: $medBlue;
     &::before,
     &::after {
       opacity: 1;
