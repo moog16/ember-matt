@@ -6,15 +6,4 @@ $break-small: 900px;
 $break-phone: 750px;
 
 @import 'layout';
-
-.title {
-  padding: 100px 0 50px 0;
-  @extend .text--center; 
-  h1 {
-    font-family: 'Lobster', cursive;
-  }
-  h3 {
-    font-family: 'Raleway';
-    font-weight: 200;
-  }
-}
+@import 'font-styles/font-styles';

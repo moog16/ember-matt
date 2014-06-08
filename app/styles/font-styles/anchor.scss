@@ -1,0 +1,43 @@
+/* http://tympanus.net/Development/InlineAnchorStyles/ */
+a {
+  color: #2c3e50;
+  position: relative;
+  text-decoration: none;
+
+  &:hover {
+    color: #2980b9;
+    &::before,
+    &::after {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    &::before {
+      left: -0.2em;
+    }
+    &::after {
+      right: -0.2em;
+    }
+  }
+  &::before,
+  &::after {
+    position: absolute;
+    font-size: 150%;
+    line-height: .7em;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, 
+        -webkit-transform 0.2s;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+  &::before {
+    -webkit-transform: translateX(-100%);
+    left: -.5em;
+    content: '[';
+  }
+  &::after {
+    right: -.5em;
+    content: ']';
+    -webkit-transform: translateX(100%);
+  }
+}
