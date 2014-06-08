@@ -1,11 +1,11 @@
 <div class="island greybox push--sides">
-  <div class='brand'>{{entry.companyName}}</div>
-  <div>{{entry.description}}</div>
-  <div>
-    <span>{{entry.startDate}} - {{entry.endDate}}</span>
-  </div>
-  <div>
-    <span>{{entry.locationCity}}, {{entry.locationState}}</span>
-  </div>
+  <h4 class='brand'>{{entry.companyName}}</h4>
   <div>{{entry.title}}</div>
+  <div>
+    <span class='weight--light'>{{date-range entry.startDate entry.endDate}}</span>
+  </div>
+  <div>
+    <span class='weight--light'>{{entry.locationCity}}, {{entry.locationState}}</span>
+  </div>
+  <div>{{entry.description}}</div>
 </div>

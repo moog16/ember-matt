@@ -8,9 +8,13 @@ $break-phone: 750px;
 @import 'layout';
 
 .title {
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  &:first-of-type {
-    padding-top: 200px;
+  padding: 100px 0 50px 0;
+  @extend .text--center; 
+  h1 {
+    font-family: 'Lobster', cursive;
+  }
+  h3 {
+    font-family: 'Raleway';
+    font-weight: 200;
   }
 }
