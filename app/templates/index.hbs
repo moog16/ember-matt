@@ -1,5 +1,9 @@
-{{#each resume}}
-  {{resume-entry entry=this}}
-{{/each}}
+<div class='grid grid--center'>
+  <div class="grid__item  lap--two-thirds  desk--one-half">
+    {{#each resume}}
+      {{resume-entry entry=this}}
+    {{/each}}
+  </div>
+</div>
 
 {{#link-to 'technology-skills'}}Skills{{/link-to}}

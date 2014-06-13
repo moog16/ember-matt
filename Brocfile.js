@@ -6,6 +6,7 @@ var app = new EmberApp({
   name: require('./package.json').name,
 
   legacyFilesToAppend: [
+    'moment.js',
     'jquery.js',
     'handlebars.js',
     'ember.js',
@@ -13,8 +14,7 @@ var app = new EmberApp({
     'ember-data.js',
     'app-shims.js',
     'ember-resolver.js',
-    'ember-load-initializers.js',
-    'moment.js'
+    'ember-load-initializers.js'
   ],
 
   // AKA whitelisted modules

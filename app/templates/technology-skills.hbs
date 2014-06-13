@@ -1,11 +1,21 @@
 <h3 class='push--left'>things I'm good at</h3>
 
-{{#if model}}{{debugger}}{{/if}}
-
-{{#each model}}
-{{log 'hello'}}
-  <img {{bind-attr src=imageUrl alt="imageTitle" class='img--round img--left img--short'}}>
-{{/each}}
+<div class='grid grid--center tech-skills'>
+  {{#each model}}
+    {{#if this.isLong}}
+      {{!-- <div class='grid__item palm-- lap--one-eigth desk--one-sixth'> --}}
+        <img {{bind-attr src=imageUrl alt=imageTitle class='img--short grid__item lap--one-eigth desk--one-sixth'}}>
+      {{!-- </div> --}}
+    {{/if}}
+  {{/each}}
+  {{#each model}}
+    {{#unless this.isLong}}
+      {{!-- <div class='grid__item lap--one-eigth desk--one-sixth'> --}}
+        <img {{bind-attr src=imageUrl alt=imageTitle class='grid__item lap--one-eigth desk--one-sixth'}}>
+      {{!-- </div> --}}
+    {{/unless}}
+  {{/each}}
+</div>
 
 
 {{!--
@@ -14,4 +24,4 @@
 <img class='img--round img--left img--short' src='./assets/images/logos/java_logo.png' />
 <img class='img--round img--left img--short' src='./assets/images/logos/springmvc_logo.png' />
 <img class='img--round img--left img--short' src='./assets/images/logos/handlebarsjs_logo.png' />
---}}
+--}}å

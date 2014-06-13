@@ -1,8 +1,5 @@
 export default Ember.Route.extend({
   model: function() {
-    var self = this;
-    this.store.find('technology-skills-image').then(function(images) {
-      return images;
-    })
+    return this.store.find('technology-skills-image');
   }
 });
