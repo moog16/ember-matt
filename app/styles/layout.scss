@@ -1,17 +1,32 @@
-.back-splash {
-  background-image: url('./images/pirateCove.jpg');
+.background-splash {
+  width: 100%;
+  position: absolute;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 800px;
-  @media screen and (max-width: $break-large) {
-    background-position-y: -600px;
+
+  @include media-query(palm) {
+    background-position-y: 0;
   }
-  @media screen and (max-width: $break-medium) {
-    background-position-y: -400px;
-  }
-  @media screen and (max-width: $break-small) {
+  @include media-query(lap) {
     background-position-y: -200px;
   }
-  @media screen and (max-width: $break-phone) {
-    background-position-y: 0;
+  @include media-query(desk) {
+    background-position-y: -400px;
+  }
+  @include media-query(desk-side) {
+    background-position-y: -600px;
+  }
+
+  &.fold {
+    background-image: url('./images/pirateCove.jpg');
+    z-index: 100;
+  }
+  &.page-content {
+    background-color: $lightBlue;
+    top: 0;
+    z-index: 90;
   }
 }

@@ -1,3 +1,5 @@
+// import moment from 'ember-matt/vendor/momentjs/moment';
+
 export default Ember.Handlebars.makeBoundHelper(function(startDate, endDate) {
   return moment(startDate).format("MMM YYYY") +' - '+ 
         moment(endDate).format("MMM YYYY") +' ('+

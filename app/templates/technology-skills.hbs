@@ -3,16 +3,12 @@
 <div class='grid grid--center tech-skills'>
   {{#each model}}
     {{#if this.isLong}}
-      {{!-- <div class='grid__item palm-- lap--one-eigth desk--one-sixth'> --}}
-        <img {{bind-attr src=imageUrl alt=imageTitle class='img--short grid__item lap--one-eigth desk--one-sixth'}}>
-      {{!-- </div> --}}
+        <img {{bind-attr src=imageUrl alt=imageTitle class='img--short grid__item one-third'}}>
     {{/if}}
   {{/each}}
   {{#each model}}
     {{#unless this.isLong}}
-      {{!-- <div class='grid__item lap--one-eigth desk--one-sixth'> --}}
-        <img {{bind-attr src=imageUrl alt=imageTitle class='grid__item lap--one-eigth desk--one-sixth'}}>
-      {{!-- </div> --}}
+        <img {{bind-attr src=imageUrl alt=imageTitle class='grid__item one-third'}}>
     {{/unless}}
   {{/each}}
 </div>

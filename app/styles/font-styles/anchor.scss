@@ -22,8 +22,8 @@ a {
   &::before,
   &::after {
     position: absolute;
-    font-size: 150%;
-    line-height: .7em;
+    font-size: 170%;
+    line-height: .85em;
     opacity: 0;
     -webkit-transition: opacity 0.2s, 
         -webkit-transform 0.2s;
