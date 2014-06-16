@@ -1,3 +1,7 @@
+html {
+  // overflow: hidden;
+}
+
 .background-splash {
   width: 100%;
   position: absolute;
@@ -23,10 +27,11 @@
   &.fold {
     background-image: url('./images/pirateCove.jpg');
     z-index: 100;
+    top: 0;
   }
   &.page-content {
     background-color: $lightBlue;
-    top: 0;
     z-index: 90;
+    // top: 0;
   }
 }

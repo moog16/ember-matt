@@ -1,16 +1,17 @@
 <h3 class='push--left'>things I'm good at</h3>
 
 <div class='grid grid--center tech-skills'>
-  {{#each model}}
-    {{#if this.isLong}}
-        <img {{bind-attr src=imageUrl alt=imageTitle class='img--short grid__item one-third'}}>
-    {{/if}}
-  {{/each}}
-  {{#each model}}
-    {{#unless this.isLong}}
-        <img {{bind-attr src=imageUrl alt=imageTitle class='grid__item one-third'}}>
-    {{/unless}}
-  {{/each}}
+  {{view 'tech-skill-block'}}
+{{!-- 
+      <div class='grid__item one-third'>
+        <img {{bind-attr src=imageUrl alt=imageTitle}}>
+      </div>
+
+      <div class='grid__item one-third'>
+        <img {{bind-attr src=imageUrl alt=imageTitle}}>
+      </div>
+ --}}
+
 </div>
 
 
@@ -20,4 +21,4 @@
 <img class='img--round img--left img--short' src='./assets/images/logos/java_logo.png' />
 <img class='img--round img--left img--short' src='./assets/images/logos/springmvc_logo.png' />
 <img class='img--round img--left img--short' src='./assets/images/logos/handlebarsjs_logo.png' />
---}}å
+--}}
