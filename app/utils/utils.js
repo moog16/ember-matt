@@ -17,4 +17,9 @@ utils.resizeBackgroundHeight = function() {
   $background.height(height);
 };
 
+utils.setNewHeight = function(top, d, $background) {
+  var newBTop = top + d;
+  $background.css('top', newBTop);
+};
+
 export default utils;

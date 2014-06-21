@@ -7,6 +7,33 @@ $darkBlue: #2c3e50;
 $light: #ecf0f1;
 $highlighter: #e74c3c;
 
+.lightBlue {
+  background: $lightBlue;
+  height: 100px;
+  z-index: 9999;
+}
+.medBlue {
+  background: $medBlue;
+  height: 100px;
+  z-index: 9999;
+}
+.darkBlue {
+  background: $darkBlue;
+  height: 100px;
+  z-index: 9999;
+}
+.light {
+  background: $light;
+  height: 100px;
+  z-index: 9999;
+}
+.highlighter {
+  background: $highlighter;
+  height: 100px;
+  z-index: 9999;
+}
+
+
 
 @import 'layout';
 @import 'font-styles/font-styles';

@@ -1,10 +1,16 @@
 .title {
-  padding: 100px 0 50px 0;
+  position: relative;
+  z-index: 300;
+  top: 100px;
   @extend .text--center; 
   h1 {
     font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    font-size: 200px;
   }
-  h3 {
+  h2, a {
+    font-size: 30px; 
+    color: orange;
     font-weight: 200;
   }
 }
