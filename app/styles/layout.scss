@@ -20,16 +20,12 @@
   }
 
   &.fold {
-    position: absolute;
     background-image: url('./images/pirateCove.jpg');
-    z-index: 100;
     top: 0;
   }
   &.page-content {
-    position: relative;
     background-color: $lightBlue;
     padding-top: 120px;
-    z-index: 90;
     &.alternate {
       background-color: $darkBlue;
     }

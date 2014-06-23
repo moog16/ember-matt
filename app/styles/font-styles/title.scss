@@ -1,16 +1,13 @@
 .title {
-  position: relative;
-  z-index: 300;
-  top: 100px;
   @extend .text--center; 
+  height: 0;
   h1 {
     font-family: 'Lobster', cursive;
     margin-bottom: 20px;
     font-size: 200px;
   }
-  h2, a {
+  h2 {
     font-size: 30px; 
-    color: orange;
     font-weight: 200;
   }
 }
