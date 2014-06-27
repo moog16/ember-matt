@@ -1,10 +1,7 @@
 .background-splash {
   width: 100%;
 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include vendor-prefix(background-size, cover);
 
   @include media-query(palm) {
     background-position-y: 0;
@@ -22,6 +19,7 @@
   &.fold {
     background-image: url('./images/pirateCove.jpg');
     top: 0;
+    @include vendor-prefix(filter, blur(1px) hue-rotate(90deg));
   }
   &.page-content {
     background-color: $lightBlue;

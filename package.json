@@ -23,6 +23,7 @@
     "originate": "0.1.5",
     "broccoli-template": "0.1.1",
     "loom-generators-ember-appkit": "^1.1.0",
-    "broccoli-sass": "^0.1.4"
+    "broccoli-sass": "^0.2.0",
+    "broccoli-merge-trees": "^0.1.4"
   }
 }

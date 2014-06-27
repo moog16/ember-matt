@@ -27,6 +27,33 @@ Resume.reopenClass({
     locationState: 'CO',
     startDate: new Date(2011, 5),
     title: 'Research Assistant'
+  }, { 
+    id: 3,
+    companyName: 'Barry Wehmiller Design Group',
+    description: 'Providing industrial process engineering to manufacturing plants and facilities. Programming PLC software such as RSLogix 5000, PLC 3 and 5 software. Designing HMIs in FactoryView and FactoryLink to allow customers/clients to interact with PLCs and hardware. Creating documentation of processes and operations to describe what work we did and how we did it. Interacting with clients and other vendors pn a daily basis to achieve a quality product.',
+    endDate: new Date(2013, 7),
+    locationCity: 'Fort Collins & Greenwood Village',
+    locationState: 'CO',
+    startDate: new Date(2012, 6),
+    title: 'Electrical Engineer'
+  }, { 
+    id: 4,
+    companyName: 'University of Colorado at Boulder',
+    description: 'Assisting Communication students/faculty with day-to-day IT support. Maintenance/creation of Communication DEPT websites, along with creating/updating wikis for department for documenting solutions to IT problems.',
+    endDate: new Date(2011, 5),
+    locationCity: 'Boulder',
+    locationState: 'CO',
+    startDate: new Date(2011, 5),
+    title: 'Assistant System Admin'
+  }, { 
+    id: 5,
+    companyName: 'Switchfly, Inc.',
+    description: 'Developing in Ember.js frontend framework and Spring MVC in Travel Industry SaaS Company.',
+    endDate: new Date(),
+    locationCity: 'San Francisco',
+    locationState: 'CA',
+    startDate: new Date(2013, 12),
+    title: 'Web Developer'
   }]
 });
  
