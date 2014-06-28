@@ -40,7 +40,7 @@ Resume.reopenClass({
     id: 4,
     companyName: 'University of Colorado at Boulder',
     description: 'Assisting Communication students/faculty with day-to-day IT support. Maintenance/creation of Communication DEPT websites, along with creating/updating wikis for department for documenting solutions to IT problems.',
-    endDate: new Date(2011, 5),
+    endDate: new Date(2012, 5),
     locationCity: 'Boulder',
     locationState: 'CO',
     startDate: new Date(2011, 5),
