@@ -21,6 +21,9 @@
     top: 0;
     @include vendor-prefix(filter, blur(1px) hue-rotate(90deg));
   }
+}
+
+.bg {
   &.page-content {
     background-color: $lightBlue;
     padding-top: 120px;

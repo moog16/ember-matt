@@ -7,4 +7,6 @@ Router.map(function() {
   this.route('resume');
 });
 
+
+
 export default Router;

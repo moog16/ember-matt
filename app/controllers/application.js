@@ -8,5 +8,9 @@ export default Ember.Controller.extend({
       utils.resizeBackgroundHeight();
       $(window).resize(utils.resizeBackgroundHeight);
     });
+  // },
+
+  // updatePage: function() {
+  //   scrollIntervalID = setInterval(updatePage, 10);
   }
 });
